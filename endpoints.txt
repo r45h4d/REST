@@ -1,0 +1,16 @@
+GET /v1/students/{id}
+GET /v1/students?ageFrom=18&ageTo=25
+POST /v1/students
+DELETE /v1/students/{id}
+PUT /v1/students/{id}
+
+GET /v1/courses/{courseId}/instructors/{instructorId}
+POST /v1/courses/{courseId}/instructors
+DELETE /v1/courses/{courseId}/instructors/{instructorId}
+PUT /v1/courses/{courseId}/instructors/{instructorId}
+
+GET /v1/prepaid-courses
+GET /v1/prepaid-courses?minPrice=10&maxPrice=50
+PUT /v1/prepaid-courses/{courseId}
+DELETE /v1/prepaid-courses/{courseId}
+POST /v1/prepaid-courses
